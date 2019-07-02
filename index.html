@@ -8,26 +8,19 @@
 * {
   box-sizing: border-box;
 }
-
-
 body {
   font-family: Courier, Times New Roman, sans-serif;
   margin: 0;
 }
-
-
 .header {
   padding: 80px;
   text-align: center;
   background: #f4c2c2;
   color: white;
 }
-
-
 .header h1 {
   font-size: 40px;
 }
-
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -35,8 +28,6 @@ body {
   position: -webkit-sticky;
   top: 0;
 }
-
-
 .navbar a {
   float: left;
   display: block;
@@ -45,69 +36,51 @@ body {
   padding: 14px 20px;
   text-decoration: none;
 }
-
-
-
 .navbar a.right {
   float: right;
 }
-
-
 .navbar a:hover {
   background-color: #ddd;
   color: black;
 }
-
-
 .navbar a.active {
   background-color: #666;
   color: white;
 }
-
-
 .row {  
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
 }
-
-
 .side {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
 }
-
-
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
   padding: 20px;
 }
-
 .fakeimg {
   background-color: #f4c2c2;
   width: 100%;
   padding: 20px;
 }
-
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
   background: #f4c2c2;
 }
-
 @media screen and (max-width: 700px) {
   .row {   
     flex-direction: column;
   }
 }
-
-
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
@@ -120,7 +93,7 @@ body {
 
 <div class="header">
   <h1><font face="palatino">My Website</h1>
-    <p>My <b><font face="courier">profile</font></b> and other information.</p>
+  <p>My <font face="courier">profile and other information.</p>
 </div>
 
 <div class="navbar">
@@ -134,7 +107,7 @@ body {
   <div class="side">
     <h2>About Me</h2>
     <h5><font face="courier-new">Photo of me:</h5>
-    <div><center><img src="https://i.imgur.com/XoY10IF.jpg" style="width:200px;height:400x;"></div>
+    <div><center><img src="https://i.imgur.com/XoY10IF.jpg" style="width:200px;height:400x;"></center></div>
     <p><font face="courier">A photo of me for my 18th birthday portrait</p>
     <h3>INFO</h3>
     <p>i can only give this much..</p>
@@ -147,15 +120,14 @@ body {
     <h5><font face="courier">Created on June 22, 2019</h5>
     <div><center><img src="https://images.unsplash.com/photo-1542567455-cd733f23fbb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="height:200px;"></div>
     <p>Hobby.</p>
-    <p><center><font face="courier">I like taking pictures of my dog and favourite foods..</p>
+    <p><center><font face="courier">I like taking pictures of my dog and favourite foods..</center></p>
     <br>
-    <h2><center>Meet Roxy</h2>
-    <h5><center>My pet dog, Roxy. <br> Born on May 18, 2018</h5>
-    <div><center> <img src="https://instagram.fmnl13-1.fna.fbcdn.net/vp/401f7fa4082fff5afe4ae7696476ebe4/5D8DA487/t51.2885-15/sh0.08/e35/s640x640/52123990_332331190710564_5836351661327006618_n.jpg?_nc_ht=instagram.fmnl13-1.fna.fbcdn.net" align="middle"; style="height:350px;"></div>
-    <p><center>Roxy is a mixbreed of German Shepherd and Pomeranian</p>
+    <h2><center>Meet Roxy</center></h2>
+    <h5><center>My pet dog, Roxy. <br> Born on May 18, 2018</center></h5>
+    <div><center> <img src="https://instagram.fmnl13-1.fna.fbcdn.net/vp/401f7fa4082fff5afe4ae7696476ebe4/5D8DA487/t51.2885-15/sh0.08/e35/s640x640/52123990_332331190710564_5836351661327006618_n.jpg?_nc_ht=instagram.fmnl13-1.fna.fbcdn.net" align="middle"; style="height:350px;"></center></div>
+    <p><center>Roxy is a mixbreed of German Shepherd and Pomeranian</center></p>
     <p><font face="courier">This doggo likes to eat her treats and would bark nonstop when she spot cattos and froggos. <br> Also loves to chew on sandals and flip-flops when no one is around. LOL</p>
   </div>
-</div>
 
 <div class="footer">
   <h2><i>The only way is up</i></h2>
